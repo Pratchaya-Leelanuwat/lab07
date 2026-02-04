@@ -5,6 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    header {
+      background: gold;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    header button {
+      padding: 10px;
+      background: red;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+    }
+    .menu-nav {
+      display: block;
+    }
+    .menu-nav.hidden {
+      display: none;
+    }
+    main {
+      padding: 20px 10px;
+    }
+    main hr {
+      margin: 10px 0px;
+    }
+    main .content {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    main h1 {
+      color: blue;
+    }
+
+    main p {
+      color: gray;
+    }
+  </style>
   <body>
     <header>
       <h1>Posh Website</h1>
